@@ -113,11 +113,21 @@ nav a {
 
 /* main section ANd "About section"*/
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about {
     padding: 131px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin:130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
